@@ -17,10 +17,11 @@ solution below it, and a few worked examples at the bottom.
 2026-09-21/apprentice.py   The Tollhouse Permit Desk
 2026-09-22/novice.py       The Cooper's Tally at the Brimming Barrel
 2026-09-23/novice.py       The Cellar Ledger of the Sleeping Badger
+2026-09-24/novice.py       The Miller's Whole-Stone Tally
 ```
 
 Run any of them directly:
 
 ```sh
-python 2026-09-23/novice.py
+python 2026-09-24/novice.py
 ```
