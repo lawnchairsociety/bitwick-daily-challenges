@@ -18,6 +18,7 @@ solution below it, and a few worked examples at the bottom.
 2026-09-22/novice.py       The Cooper's Tally at the Brimming Barrel
 2026-09-23/novice.py       The Cellar Ledger of the Sleeping Badger
 2026-09-24/novice.py       The Miller's Whole-Stone Tally
+2026-09-25/novice.py       The Chalkboard of the Hearth and Hammer
 ```
 
 Run any of them directly:
