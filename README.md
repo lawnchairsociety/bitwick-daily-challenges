@@ -1,4 +1,4 @@
-# daily-challenges
+# bitwick-daily-challenges
 
 Daily programming puzzles from [bitwick.dev](https://bitwick.dev), solved in Python. Each day
 has up to four, one per difficulty tier, and once a week there's a fifth, boss-tier puzzle.
