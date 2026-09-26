@@ -30,6 +30,9 @@ from pathlib import Path
 TIERS = ["novice", "apprentice", "adept", "master", "boss"]
 ROOT = Path(__file__).parent
 
+# Don't leave __pycache__ folders in the date directories when loading solutions.
+sys.dont_write_bytecode = True
+
 
 def load_solution(path):
     spec = importlib.util.spec_from_file_location(path.stem, path)
