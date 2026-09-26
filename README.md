@@ -1,6 +1,7 @@
 # daily-challenges
 
-One small programming puzzle a day from [bitwick.dev](https://bitwick.dev), solved in Python.
+Daily programming puzzles from [bitwick.dev](https://bitwick.dev), solved in Python. Each day
+has up to four, one per difficulty tier, and once a week there's a fifth, boss-tier puzzle.
 
 Each directory is named for the date of the puzzle (`YYYY-MM-DD`) and holds one file per
 difficulty level solved that day — `novice.py`, `apprentice.py`, `adept.py`, `master.py`
