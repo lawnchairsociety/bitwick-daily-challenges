@@ -6,5 +6,9 @@
       {"args": [["Bran", "Cass"], "Dov"], "expected": ["Bran", "Cass"]},
       {"args": [["bran", "Bran"], "Bran"], "expected": ["bran"]}
     ]
-  }
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
 }

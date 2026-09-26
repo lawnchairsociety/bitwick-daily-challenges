@@ -6,5 +6,9 @@
       {"args": [{"mead": 7}, ["mead", "mead"]], "expected": [7, 7]},
       {"args": [{"mead": 7}, []], "expected": []}
     ]
-  }
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
 }

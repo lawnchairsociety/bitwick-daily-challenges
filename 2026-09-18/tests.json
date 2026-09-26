@@ -1,4 +1,6 @@
 {
+  "novice": {},
+  "apprentice": {},
   "adept": {
     "function": "longest_steady_stretch",
     "cases": [
@@ -7,5 +9,7 @@
       {"args": [[], 3], "expected": 0},
       {"args": [[2, 4, 0], 2], "expected": 2}
     ]
-  }
+  },
+  "master": {},
+  "boss": {}
 }

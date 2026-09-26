@@ -1,4 +1,5 @@
 {
+  "novice": {},
   "apprentice": {
     "function": "mirebridge_toll",
     "cases": [
@@ -7,5 +8,8 @@
       {"args": [[[4, 500, "grain"], [6, 600, "ore"]]], "expected": 27},
       {"args": [[[3, 200, "ore"]]], "expected": 16}
     ]
-  }
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
 }

@@ -6,5 +6,9 @@
       {"args": ["Tallow Candle", 1, 1], "expected": "Tallow Candle x1 = 1 coin"},
       {"args": ["Turnip", 0, 7], "expected": "Turnip x0 = 0 coins"}
     ]
-  }
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
 }

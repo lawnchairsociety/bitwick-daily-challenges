@@ -4,26 +4,9 @@ One small programming puzzle a day from [bitwick.dev](https://bitwick.dev), solv
 
 Each directory is named for the date of the puzzle (`YYYY-MM-DD`) and holds one file per
 difficulty level solved that day — `novice.py`, `apprentice.py`, `adept.py`, `master.py`
-or `boss.py` — plus a `tests.json` with the puzzle's worked examples for each of those
-tiers. Each `.py` file has the puzzle statement as a comment block at the top and the
-solution below it.
-
-```
-2026-09-12/novice.py       The Tap-Room Slate
-2026-09-16/apprentice.py   The Beacon-Keeper's Oil Ledger
-2026-09-17/apprentice.py   The Tollhouse at Mirebridge
-2026-09-18/adept.py        The Lanterns of Dusk Lane
-2026-09-19/novice.py       The Ferryman's Tally Board
-2026-09-20/apprentice.py   The Cistern-Keeper's Tally at Tidewell
-2026-09-21/apprentice.py   The Tollhouse Permit Desk
-2026-09-21/novice.py       The Miller's Tally Stick
-2026-09-22/novice.py       The Cooper's Tally at the Brimming Barrel
-2026-09-23/novice.py       The Cellar Ledger of the Sleeping Badger
-2026-09-24/novice.py       The Miller's Whole-Stone Tally
-2026-09-25/apprentice.py   The Ferryman's Rafts
-2026-09-25/novice.py       The Chalkboard of the Hearth and Hammer
-2026-09-26/novice.py       The Roster of the Night Watch
-```
+or `boss.py` — plus a `tests.json` with the puzzle's worked examples for each tier. Each
+`.py` file has the puzzle statement as a comment block at the top and the solution below
+it.
 
 ## Checking a solution
 
@@ -33,10 +16,11 @@ solution below it.
 ```sh
 python check_solution.py 2026-09-26 novice   # one tier
 python check_solution.py 2026-09-26          # every tier in that date's tests.json
+python check_solution.py                     # every date, with a pass/fail summary
 ```
 
 It loads `<date>/<tier>.py` and reads the cases from `<date>/tests.json`, one file per
-date with an entry for each tier solved that day:
+date with a block for every tier. Tiers not attempted that day are left empty:
 
 ```json
 {
@@ -45,9 +29,16 @@ date with an entry for each tier solved that day:
     "cases": [
       {"args": [["Bran", "Cass"], "Dov"], "expected": ["Bran", "Cass"]}
     ]
-  }
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
 }
 ```
+
+When checking every tier, an empty tier with no `.py` file is skipped. A tier with a
+`.py` file but no cases yet is reported and counts as not passing.
 
 `args` is the list of positional arguments for the call and `expected` is the return
 value. Each case prints `PASS`, `FAIL` (with expected and actual values) or `ERROR` (if

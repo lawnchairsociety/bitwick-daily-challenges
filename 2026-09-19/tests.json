@@ -6,5 +6,9 @@
       {"args": [6, 3], "expected": [2, 0]},
       {"args": [0, 4], "expected": [0, 0]}
     ]
-  }
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
 }

@@ -16,5 +16,8 @@
       {"args": [["ABC-00000", "XYZ-11111"]], "expected": ["valid", "checksum"]},
       {"args": [[]], "expected": []}
     ]
-  }
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
 }
