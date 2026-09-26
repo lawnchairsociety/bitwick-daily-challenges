@@ -15,9 +15,11 @@ solution below it, and a few worked examples at the bottom.
 2026-09-19/novice.py       The Ferryman's Tally Board
 2026-09-20/apprentice.py   The Cistern-Keeper's Tally at Tidewell
 2026-09-21/apprentice.py   The Tollhouse Permit Desk
+2026-09-21/novice.py       The Chalkboard of the Hearth and Hammer
 2026-09-22/novice.py       The Cooper's Tally at the Brimming Barrel
 2026-09-23/novice.py       The Cellar Ledger of the Sleeping Badger
 2026-09-24/novice.py       The Miller's Whole-Stone Tally
+2026-09-25/apprentice.py   The Ferryman's Rafts
 2026-09-25/novice.py       The Chalkboard of the Hearth and Hammer
 ```
 
