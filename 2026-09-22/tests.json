@@ -1,0 +1,11 @@
+{
+  "novice": {
+    "function": "tally_barrels",
+    "cases": [
+      {"args": [29, 12], "expected": [2, 5]},
+      {"args": [24, 12], "expected": [2, 0]},
+      {"args": [7, 12], "expected": [0, 7]},
+      {"args": [0, 5], "expected": [0, 0]}
+    ]
+  }
+}

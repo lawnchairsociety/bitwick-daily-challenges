@@ -39,8 +39,3 @@ def inspect_permits(permits):
         ret_set.append("valid")
 
     return ret_set
-
-print(inspect_permits(["ABC-12340", "abc-12345", "ABC-1234"]))      # output: ["valid", "prefix", "length"]
-print(inspect_permits(["ab-123"]))                                  # output: ["length"]
-print(inspect_permits(["ABC-00000", "XYZ-11111"]))                  # output: ["valid", "checksum"]
-print(inspect_permits([]))                                          # output: []

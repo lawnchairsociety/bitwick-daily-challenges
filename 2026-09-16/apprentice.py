@@ -46,12 +46,3 @@ def tally_oil(cap, log):
                 # exact
                 current_tank_level = 0
     return [spillage, shortfall]
-
-
-
-
-
-
-print(str(tally_oil(10, [4, -6, 8, 3, -20])))            # output: [1, 12]
-print(str(tally_oil(0, [7, -3])))                        # output: [7, 3]
-print(str(tally_oil(5, [])))                             # output: [0, 0]

@@ -1,0 +1,10 @@
+{
+  "novice": {
+    "function": "tally_order",
+    "cases": [
+      {"args": [{"mead": 7, "cider": 0}, ["mead", "brandy", "cider"]], "expected": [7, 0, 0]},
+      {"args": [{"mead": 7}, ["mead", "mead"]], "expected": [7, 7]},
+      {"args": [{"mead": 7}, []], "expected": []}
+    ]
+  }
+}

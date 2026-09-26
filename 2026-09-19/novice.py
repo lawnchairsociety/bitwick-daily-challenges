@@ -21,8 +21,3 @@ def ferry_crossings(travellers, seats):
     unused = 0 if travellers % seats == 0 else seats - (travellers % seats)
 
     return [crossings, unused]
-
-
-print(ferry_crossings(7, 3))    # output: [3, 2]
-print(ferry_crossings(6, 3))    # output: [2, 0]
-print(ferry_crossings(0, 4))    # output: [0, 0]

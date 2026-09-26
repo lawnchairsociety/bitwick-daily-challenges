@@ -1,0 +1,10 @@
+{
+  "novice": {
+    "function": "tally_stones",
+    "cases": [
+      {"args": [[2.5, 2.4, 2.6]], "expected": [3, 2, 3]},
+      {"args": [[0.5, 3.5]], "expected": [1, 4]},
+      {"args": [[]], "expected": []}
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "novice": {
+    "function": "slate_line",
+    "cases": [
+      {"args": ["Barley Ale", 3, 4], "expected": "Barley Ale x3 = 12 coins"},
+      {"args": ["Tallow Candle", 1, 1], "expected": "Tallow Candle x1 = 1 coin"},
+      {"args": ["Turnip", 0, 7], "expected": "Turnip x0 = 0 coins"}
+    ]
+  }
+}

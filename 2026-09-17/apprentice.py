@@ -53,9 +53,3 @@ def mirebridge_toll(wagons):
         sum += wagon_sum
         
     return sum
-
-
-print(str(mirebridge_toll([[2, 150, "wool"]])))                     # output: 3
-print(str(mirebridge_toll([[2, 80, "grain"]])))                     # output: 2
-print(str(mirebridge_toll([[4, 500, "grain"], [6, 600, "ore"]])))   # output: 27
-print(str(mirebridge_toll([[3, 200, "ore"]])))                      # output: 16

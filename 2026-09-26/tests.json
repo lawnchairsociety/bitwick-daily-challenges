@@ -1,0 +1,10 @@
+{
+  "novice": {
+    "function": "cross_off",
+    "cases": [
+      {"args": [["Bran", "Cass", "Bran", "Dov"], "Bran"], "expected": ["Cass", "Bran", "Dov"]},
+      {"args": [["Bran", "Cass"], "Dov"], "expected": ["Bran", "Cass"]},
+      {"args": [["bran", "Bran"], "Bran"], "expected": ["bran"]}
+    ]
+  }
+}

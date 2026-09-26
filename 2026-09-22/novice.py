@@ -16,10 +16,3 @@ def tally_barrels(jugs, size):
     barrels = jugs // size
     left_over = jugs % size
     return [barrels, left_over]
-
-
-
-print(tally_barrels(29, 12))    # output: [2, 5]
-print(tally_barrels(24, 12))    # output: [2, 0]
-print(tally_barrels(7, 12))     # output: [0, 7]
-print(tally_barrels(0, 5))      # output: [0, 0]

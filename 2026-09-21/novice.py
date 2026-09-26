@@ -20,9 +20,3 @@ def trim_stick(stick, k):
         return stick
 
     return stick[k:-k]
-
-
-print(trim_stick("|||-|||", 2))     # output: |-|
-print(trim_stick("~~grain~~", 2))   # output: grain
-print(trim_stick("|||", 0))         # output: |||
-print(trim_stick("||||", 2))        # output: 

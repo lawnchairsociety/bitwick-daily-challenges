@@ -33,8 +33,3 @@ def cistern_tally(cap, flow):
             current_level = cap
     
     return [current_level, lost, unmet]
-
-
-print(cistern_tally(10, [6, 7, -20, 3]))        # output: [3, 3, 10]
-print(cistern_tally(0, [4, -2, 7]))             # output: [0, 11, 2]
-print(cistern_tally(100, [10, -3, 5, -12]))     # output: [0, 0, 0]

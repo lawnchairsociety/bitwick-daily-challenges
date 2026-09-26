@@ -45,9 +45,3 @@ def load_rafts(weights, limit, size):
     if len(raft) > 0:
         ret_set.append(raft)
     return ret_set
-
-
-
-print(load_rafts([4, 4, 4], 8, 5))             # output: [[4, 4], [4]]
-print(load_rafts([10, 1, 2], 5, 3))            # output: [[10], [1, 2]]
-print(load_rafts([1, 1, 1, 1, 1], 10, 2))      # output: [[1, 1], [1, 1], [1]]

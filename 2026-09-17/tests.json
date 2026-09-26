@@ -1,0 +1,11 @@
+{
+  "apprentice": {
+    "function": "mirebridge_toll",
+    "cases": [
+      {"args": [[[2, 150, "wool"]]], "expected": 3},
+      {"args": [[[2, 80, "grain"]]], "expected": 2},
+      {"args": [[[4, 500, "grain"], [6, 600, "ore"]]], "expected": 27},
+      {"args": [[[3, 200, "ore"]]], "expected": 16}
+    ]
+  }
+}

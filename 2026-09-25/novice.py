@@ -26,9 +26,3 @@ def tally_line(name, count, price):
     tail = "{} {}".format(str(charge), "coin" if charge == 1 else "coins")
     dot_count = 1 if len(head) + len(tail) >= 31 else 32 - (len(head) + len(tail))
     return head + spacer * dot_count + tail
-
-
-
-print(tally_line("Barley Ale", 3, 4))                            # output: "3 x Barley Ale..........12 coins"
-print(tally_line("Mead", 1, 1))                                  # output: "1 x Mead..................1 coin"
-print(tally_line("Thrice-Distilled Dragonfire Brandy", 2, 50))   # output: "2 x Thrice-Distilled Dragonfire Brandy.100 coins"

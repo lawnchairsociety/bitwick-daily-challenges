@@ -20,8 +20,3 @@
 
 def slate_line(name, count, price):
     return f"{name} x{count} = {count * price} {"coin" if count * price == 1 else "coins"}"
-
-
-print(slate_line("Barley Ale", 3, 4))           # output: "Barley Ale x3 = 12 coins"
-print(slate_line("Tallow Candle", 1, 1))        # output: "Tallow Candle x1 = 1 coin"
-print(slate_line("Turnip", 0, 7))               # output: "Turnip x0 = 0 coins"

@@ -16,8 +16,3 @@ def tally_order(stock: dict[str, int], order: list[str]) -> list[int]:
     for item in order:
         tally.append(0 if stock.get(item) == None else stock.get(item))
     return tally
-
-
-print(tally_order({"mead": 7, "cider": 0}, ["mead", "brandy", "cider"]))    # output: [7, 0, 0]
-print(tally_order({"mead": 7}, ["mead", "mead"]))                           # output: [7, 7]
-print(tally_order({"mead": 7}, []))                                         # output: []

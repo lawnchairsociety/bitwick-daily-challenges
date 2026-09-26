@@ -25,10 +25,3 @@ def longest_steady_stretch(lamps, spread):
     
         
     return longest_run
-
-
-
-print(str(longest_steady_stretch([1, 5, 6, 7, 2, 3], 2)))       # output: 3
-print(str(longest_steady_stretch([9, 1, 9], 0)))                # output: 1
-print(str(longest_steady_stretch([], 3)))                       # output: 0
-print(str(longest_steady_stretch([2, 4, 0], 2)))                # output: 2

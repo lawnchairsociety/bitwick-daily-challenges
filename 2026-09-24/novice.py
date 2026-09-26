@@ -15,10 +15,3 @@ def tally_stones(weights):
     for weight in weights:
         tally.append(int((weight + 0.5) // 1))
     return tally
-
-
-
-
-print(tally_stones([2.5, 2.4, 2.6]))      # output: [3, 2, 3]
-print(tally_stones([0.5, 3.5]))           # output: [1, 4]
-print(tally_stones([]))                   # output: []
