@@ -1,0 +1,13 @@
+{
+  "novice": {
+    "function": "out_of_stock",
+    "cases": [
+      {"args": [{"ale": 3, "mead": 0, "cider": 7}, ["ale", "mead", "perry"]], "expected": ["mead", "perry"]},
+      {"args": [{"ale": 3, "cider": 7}, []], "expected": []}
+    ]
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
