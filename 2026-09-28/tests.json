@@ -8,8 +8,24 @@
       {"args": [[]], "expected": []}
     ]
   },
-  "apprentice": {},
-  "adept": {},
+  "apprentice": {
+    "function": "tally_cistern",
+    "cases": [
+      {"args": [10, 4, [3, 5, -20, 6]], "expected": [6, 2, 10]},
+      {"args": [12, 0, [12, 1, -13, 2]], "expected": [2, 1, 1]},
+      {"args": [0, 0, [4, -4]], "expected": [0, 4, 4]},
+      {"args": [5, 5, []], "expected": [5, 0, 0]}
+    ]
+  },
+  "adept": {
+    "function": "count_stretches",
+    "cases": [
+      {"args": [[1, 2, 3, -2, 2], 3], "expected": 4},
+      {"args": [[0, 0, 0], 0], "expected": 6},
+      {"args": [[], 0], "expected": 0},
+      {"args": [[5], 0], "expected": 0}
+    ]
+  },
   "master": {},
   "boss": {}
 }
