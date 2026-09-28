@@ -1,0 +1,15 @@
+{
+  "novice": {
+    "function": "middle_staves",
+    "cases": [
+      {"args": [["oak", "ash", "elm", "yew", "fir"]], "expected": ["elm"]},
+      {"args": [["oak", "ash", "elm", "yew"]], "expected": ["ash", "elm"]},
+      {"args": [["lone"]], "expected": ["lone"]},
+      {"args": [[]], "expected": []}
+    ]
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
