@@ -1,0 +1,21 @@
+{
+  "novice": {
+    "function": "ferry_toll",
+    "cases": [
+      {"args": [17, 5, 3], "expected": 12},
+      {"args": [20, 5, 3], "expected": 12},
+      {"args": [0, 5, 3], "expected": 0}
+    ]
+  },
+  "apprentice": {
+    "function": "toll_run",
+    "cases": [
+      {"args": [10, 12, [4, -5, 7, 3]], "expected": [4, 1]},
+      {"args": [3, 6, [-9, 5, 2]], "expected": [2, 1]},
+      {"args": [5, 5, [5, 1]], "expected": [1, 0]}
+    ]
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
