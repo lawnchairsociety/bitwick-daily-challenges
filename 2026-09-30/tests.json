@@ -1,0 +1,21 @@
+{
+  "novice": {
+    "function": "high_water_marks",
+    "cases": [
+      {"args": [[2, -1, 5, 3]], "expected": [2, 2, 5, 5]},
+      {"args": [[-4, -6, -5]], "expected": [-4, -4, -4]},
+      {"args": [[]], "expected": []}
+    ]
+  },
+  "apprentice": {
+    "function": "rain_barrel",
+    "cases": [
+      {"args": [[3, -1, 5, -10], 6], "expected": [0, 1, 4]},
+      {"args": [[5, -5], 5], "expected": [0, 0, 0]},
+      {"args": [[4, -2], 0], "expected": [0, 4, 2]}
+    ]
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
