@@ -1,0 +1,70 @@
+{
+  "novice": {
+    "function": "warden_door",
+    "cases": [
+      {"args":[10, false, false], "expected": true},
+      {"args":[4, true, false], "expected": true},
+      {"args":[20, true, true], "expected": false},
+      {"args":[9, false, false], "expected": false}
+    ]
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {
+    "function": "assize_verdicts",
+    "cases": [
+      {"args": [
+        [
+          {"rank": 1, "when": {}, "verdict": "welcome", "repeals": [], "limit": null},
+          {"rank": 1, "when": {"guild": "mage"}, "verdict": "toll", "repeals": [], "limit": null},
+          {"rank": 1, "when": {"guild": "mage"}, "verdict": "fine", "repeals": [], "limit": null},
+          {"rank": 2, "when": {"home": "Ashby"}, "verdict": "bar", "repeals": [], "limit": null}
+        ],
+        [
+          {"guild": "mage", "home": "Bitwick"},
+          {"guild": "mage", "home": "Ashby"},
+          {"guild": "thief"}
+        ]
+      ], "expected": ["fine", "bar", "welcome"]},
+      {"args": [
+        [
+          {"rank": 5, "when": {}, "verdict": "bar", "repeals": [], "limit": null},
+          {"rank": 1, "when": {}, "verdict": "toll", "repeals": [0], "limit": null},
+          {"rank": 1, "when": {}, "verdict": "welcome", "repeals": [1], "limit": null},
+          {"rank": 1, "when": {"guild": "knight"}, "verdict": "salute", "repeals": [2], "limit": null}
+        ],
+        [
+          {"guild": "knight"},
+          {"guild": "mage"}
+        ]
+      ], "expected": ["salute", "toll"]},
+      {"args": [
+        [
+          {"rank": 1, "when": {}, "verdict": "toll", "repeals": [], "limit": null},
+          {"rank": 3, "when": {"guild": "mage"}, "verdict": "welcome", "repeals": [], "limit": 2},
+          {"rank": 2, "when": {"guild": "mage"}, "verdict": "bar", "repeals": [], "limit": 1}
+        ],
+        [
+          {"guild": "mage"},
+          {"guild": "mage"},
+          {"guild": "mage"},
+          {"guild": "mage"}
+        ]
+      ], "expected": ["welcome", "welcome", "bar", "toll"]},
+      {"args": [
+        [
+          {"rank": 3, "when": {}, "verdict": "bar", "repeals": [], "limit": null},
+          {"rank": 3, "when": {}, "verdict": "toll", "repeals": [], "limit": null},
+          {"rank": 1, "when": {}, "verdict": "welcome", "repeals": [0, 1], "limit": 1},
+          {"rank": 0, "when": {}, "verdict": "hush", "repeals": [], "limit": null}
+        ],
+        [
+          {},
+          {},
+          {}
+        ]
+      ], "expected": ["welcome", "hush", "hush"]}
+    ]
+  }
+}
