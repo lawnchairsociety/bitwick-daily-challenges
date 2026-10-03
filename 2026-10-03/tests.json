@@ -1,0 +1,21 @@
+{
+  "novice": {
+    "function": "tally_reagents",
+    "cases": [
+      {"args": [{ "ember salt": 4, "bog myrtle": 2, "moonwort": 7 }, ["moonwort", "ember salt"]], "expected": 11},
+      {"args": [{ "ember salt": 4, "moonwort": 7 }, ["ghost pepper", "moonwort"]], "expected": 7},
+      {"args": [{ "bog myrtle": 2 }, ["bog myrtle", "bog myrtle"]], "expected": 4}
+    ]
+  },
+  "apprentice": {
+    "function": "first_stranded_leg",
+    "cases": [
+        {"args": [10, [2, -5, 11]], "expected": 2},
+        {"args": [5, [2, 3, 0, -1, 1]], "expected": -1},
+        {"args": [3, [4, 1]], "expected": 0}
+    ]
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
