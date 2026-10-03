@@ -1,0 +1,15 @@
+{
+  "novice": {
+    "function": "tally_line",
+    "cases": [
+      {"args": [7, "Brenna", "Troll", 3], "expected": "#007 Brenna slew 3 Trolls"},
+      {"args": [42, "Oswin", "Wyvern", 1], "expected": "#042 Oswin slew 1 Wyvern"},
+      {"args": [0, "Mira", "Ghoul", 0], "expected": "#000 Mira slew 0 Ghouls"},
+      {"args": [1234, "Tamsin Vale", "Basilisk", 12], "expected": "#1234 Tamsin Vale slew 12 Basilisks"}
+    ]
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
