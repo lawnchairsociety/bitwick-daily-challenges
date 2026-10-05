@@ -1,0 +1,21 @@
+{
+  "novice": {
+    "function": "read_prophecy",
+    "cases": [
+      {"args": ["##SUNRISE##", 2], "expected": "SUNRISE"},
+      {"args": ["OMEN", 0], "expected": "OMEN"},
+      {"args": ["abcd", 2], "expected": ""}
+    ]
+  },
+  "apprentice": {
+    "function": "chrysalis_nights",
+    "cases": [
+      {"args": [6, 16], "expected": 8},
+      {"args": [3, 15], "expected": -1},
+      {"args": [1, 1], "expected": 0}
+    ]
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
