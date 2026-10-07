@@ -1,0 +1,14 @@
+{
+  "novice": {
+    "function": "can_summon",
+    "cases": [
+      {"args": [300, true, false, false], "expected": true},
+      {"args": [450, false, false, false], "expected": false},
+      {"args": [500, true, true, true], "expected": false}
+    ]
+  },
+  "apprentice": {},
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
