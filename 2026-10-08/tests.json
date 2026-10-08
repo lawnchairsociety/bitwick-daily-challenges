@@ -1,0 +1,21 @@
+{
+  "novice": {
+    "function": "muster_call",
+    "cases": [
+      {"args": ["The Iron Wolves", 3, "Kessmoor"], "expected": "The Iron Wolves: 3 blades bound for Kessmoor."},
+      {"args": ["Brother Aldric", 1, "Fellbarrow Pass"], "expected": "Brother Aldric: 1 blade bound for Fellbarrow Pass."},
+      {"args": ["The Grey Cloaks", 0, "Oldwatch"], "expected": "The Grey Cloaks: 0 blades bound for Oldwatch."}
+    ]
+  },
+  "apprentice": {
+    "function": "first_conjunction",
+    "cases": [
+      {"args": [[3, 5], [2, 4], 100], "expected": 14},
+      {"args": [[4], [0], 10], "expected": 4},
+      {"args": [[4, 6], [1, 2], 100], "expected": -1}
+    ]
+  },
+  "adept": {},
+  "master": {},
+  "boss": {}
+}
